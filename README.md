@@ -1,5 +1,9 @@
 #ISIS1225 - Estructura de un proyecto
 
+Daniel Felipe Molano Rodriguez - 202012695
+
+Germán Leonardo Moreno Cainaba - 202116701
+
 Este proyecto busca mostrar una posible forma de organizar el código que se va a desarrollar en los proyectos del curso.
 
 Esta organización es una sugerencia que puede ser adaptada a  las necesidades y gustos de cada persona.
