@@ -54,7 +54,7 @@ def newCatalog():
     catalog['books'] = lt.newList()
     catalog['authors'] = lt.newList('ARRAY_LIST',
                                     cmpfunction=compareauthors)
-    catalog['tags'] = lt.newList('ARRAY_LIST',
+    catalog['tags'] = lt.newList('ARRAY_LIST ',
                                  cmpfunction=comparetagnames)
     catalog['book_tags'] = lt.newList('ARRAY_LIST')
 
@@ -88,7 +88,7 @@ def addBookAuthor(catalog, authorname, book):
         lt.addLast(authors, author)
     lt.addLast(author['books'], book)
 
-
+    
 def addTag(catalog, tag):
     """
     Adiciona un tag a la lista de tags
